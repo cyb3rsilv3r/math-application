@@ -44,11 +44,18 @@ public class MathApp {
         System.out.println("The absolute value is: " + absValue);
 
         // Question 7
-
-
-
+      double randomNumber = Math.random();
+      System.out.println("Here is a random number: " + randomNumber);
 
         // Question 8
+     int days = 24;
+     int hours = days * 24;
+     int minutes= hours * 60;
+     int seconds = minutes * 60;
+     int milliseconds = seconds * 1000;
+
+      System.out.println("In 24 days there are " + minutes + " minutes and " + milliseconds + " milliseconds in 24 days");
+
 
 
 
